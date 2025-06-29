@@ -1,0 +1,262 @@
+#designer{
+font-family:'Poppins', sans-serif;
+font-weight:lighter;
+display:inline;
+text-align:center;
+font-size: 100px;
+position:relative;
+color:#3B060A;
+transition-property:font-size;
+transition-duration:2s;
+transition-timing-function: ease;
+transition-delay:0s;
+}
+span{
+     font-weight:bold;
+}
+
+#designer:hover{
+    font-size:150px;
+}
+
+
+p{
+    margin-top:-20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+.circle1{
+    background-color:rgb(255, 145, 0);
+    height:100px;
+    width: 100px;
+    /* removed z index here*/
+    border-radius:50%;
+    position:relative;
+    top:50px;
+    left:-250px;
+    box-shadow:-10px 10px 15px;
+    transition-property: width,height,border-radius,transform; /* specifing to which part the transistion is needed*/
+    transition-duration:2s; /*specifing durations of transition*/
+    transition-timing-function: ease; /*you know it*/
+    transition-delay:0s; /*time delay that has to be before action*/
+}
+
+.circle1:hover{
+    width:200px;
+    height:200px;
+    border-radius: 20px;
+    transform:rotate(360deg);
+}
+
+.circle2{
+    background-color:rgb(255, 145, 0);
+    height:100px;
+    width: 100px;
+    border-radius:50%;
+    position:relative;
+    top:110px;
+    left:-320px;
+    box-shadow:-10px 10px 15px;
+    transition-property: width,height,border-radius,transform; /* specifing to which part the transistion is needed*/
+    transition-duration:2s; /*specifing durations of transition*/
+    transition-timing-function: ease; /*you know it*/
+    transition-delay:0s; 
+}
+
+.circle2:hover{
+    width:200px;
+    height:200px;
+    border-radius: 20px;
+    transform:rotate(360deg);
+}
+
+.circle3{
+    background-color:rgb(255, 145, 0);
+    height:100px;
+    width: 100px;
+    z-index:2;
+    border-radius:50%;
+    position:relative;
+    top:170px;
+    left:-320px;
+    box-shadow:-10px 10px 15px;
+    transition-property: width,height,border-radius,transform; /* specifing to which part the transistion is needed*/
+    transition-duration:2s; /*specifing durations of transition*/
+    transition-timing-function: ease; /*you know it*/
+    transition-delay:0s; 
+}
+
+.circle3:hover{
+    width:200px;
+    height:200px;
+    border-radius: 20px;
+    transform:rotate(360deg);
+}
+
+.circle4{
+    background-color:rgb(255, 145, 0);
+    height:100px;
+    width: 100px;
+    z-index:2;
+    border-radius:50%;
+    position:relative;
+    top:230px;
+    left:-250px;
+    box-shadow:-10px 10px 15px;
+    transition-property: width,height,border-radius,transform; /* specifing to which part the transistion is needed*/
+    transition-duration:2s; /*specifing durations of transition*/
+    transition-timing-function: ease; /*you know it*/
+    transition-delay:0s; 
+}
+
+.circle4:hover{
+    width:200px;
+    height:200px;
+    border-radius: 20px;
+    transform:rotate(360deg);
+}
+
+.monk-image{
+    width:200px;
+    height:200px;
+    position:relative;
+    display:inline; 
+    animation-name:monk;
+    animation-duration:2s;
+    animation-timing-function:ease-in-out;
+    animation-delay:0s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-fill-mode:both;
+    animation-play-state:running;
+
+}
+
+
+
+img{
+    
+    width:500px;
+    height:500px;
+    top:-600px;
+
+}
+
+
+@keyframes monk{
+    from{
+        top:-600px;
+    }
+    to{
+        top:-630px;
+    }
+}
+
+
+
+.circle5{
+    background-color:rgb(255, 145, 0);
+    height:100px;
+    width: 100px;
+    z-index:2;
+    border-radius:50%;
+    position:relative;
+    top:-340px;
+    left:250px;
+    box-shadow:-10px 10px 15px;
+    transition-property: width,height,border-radius,transform; /* specifing to which part the transistion is needed*/
+    transition-duration:2s; /*specifing durations of transition*/
+    transition-timing-function: ease; /*you know it*/
+    transition-delay:0s; 
+}
+
+.circle5:hover{
+    width:200px;
+    height:200px;
+    border-radius: 20px;
+    transform:rotate(360deg);
+}
+
+.circle6{
+    background-color:rgb(255, 145, 0);
+    height:100px;
+    width: 100px;
+    z-index:2;
+    border-radius:50%;
+    position:relative;
+    top:-280px;
+    left:320px;
+    box-shadow:-10px 10px 15px;
+    transition-property: width,height,border-radius,transform; /* specifing to which part the transistion is needed*/
+    transition-duration:2s; /*specifing durations of transition*/
+    transition-timing-function: ease; /*you know it*/
+    transition-delay:0s; 
+}
+
+.circle6:hover{
+    width:200px;
+    height:200px;
+    border-radius: 20px;
+    transform:rotate(360deg);
+}
+
+.circle7{
+    background-color:rgb(255, 145, 0);
+    height:100px;
+    width: 100px;
+    z-index:2;
+    border-radius:50%;
+    position:relative;
+    top:-220px;
+    left:320px;
+    box-shadow:-10px 10px 15px;
+    transition-property: width,height,border-radius,transform; /* specifing to which part the transistion is needed*/
+    transition-duration:2s; /*specifing durations of transition*/
+    transition-timing-function: ease; /*you know it*/
+    transition-delay:0s; 
+}
+
+.circle7:hover{
+    width:200px;
+    height:200px;
+    border-radius: 20px;
+    transform:rotate(360deg);
+}
+
+.circle8{
+    background-color:rgb(255, 145, 0);
+    height:100px;
+    width: 100px;
+    z-index:2;
+    border-radius:50%;
+    position:relative;
+    top:-170px;
+    left:250px;
+    box-shadow:-10px 10px 15px;
+    transition-property: width,height,border-radius,transform; /* specifing to which part the transistion is needed*/
+    transition-duration:2s; /*specifing durations of transition*/
+    transition-timing-function: ease; /*you know it*/
+    transition-delay:0s; 
+}
+
+.circle8:hover{
+    width:200px;
+    height:200px;
+    border-radius: 20px;
+    transform:rotate(360deg);
+}
+
+
+body{
+    background-color:#FCEF91
+}
+
+
+
+
+.other{
+    padding-left:0%;
+    padding-top:40%;
+    align-self: center;
+}
